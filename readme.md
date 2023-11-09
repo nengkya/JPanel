@@ -8,5 +8,5 @@ JPanel myJPanel = new JPanel();
 /* error : incompatible types : JFrame cannot be converted to JPanel */  
 JPanel myJPanel1 = new JFrame();
 
-JFrame.setVisible(true);
+JFrame.setVisible(true); 
 JPanel doesnt have setVisible();
