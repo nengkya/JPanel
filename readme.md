@@ -1,6 +1,6 @@
 JFrame vs JPanel.
 
-import javax.swing.JPanel;
+import javax.swing.JPanel;  
 JFrame.setVisible(true);  
 JPanel doesnt have setVisible();
 
