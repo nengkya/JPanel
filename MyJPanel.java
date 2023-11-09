@@ -5,13 +5,12 @@ public class MyJPanel {
 
     public static void main(String[] arguments) {
 
+	JFrame jframe = new JFrame("JFrame HaGa");
 	JPanel myJPanel = new JPanel();
-	double a = 3.14;
-	int b = (int)a;
-	int[] myInt = new int[22];
-	Integer ccc = 6;
 
-	System.out.println(Double.MAX_VALUE);
+	jframe.setExtendedState(JFrame.MAXIMIZED_BOTH);
+	jframe.setVisible(true);
+	jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
