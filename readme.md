@@ -8,4 +8,5 @@ JPanel myJPanel = new JPanel();
 /* error : incompatible types : JFrame cannot be converted to JPanel */  
 JPanel myJPanel1 = new JFrame();
 
-https://www.geeksforgeeks.org/generating-random-numbers-in-java/
+JFrame.setVisible(true);
+JPanel doesnt have setVisible();
