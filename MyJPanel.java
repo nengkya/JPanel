@@ -1,5 +1,6 @@
-import javax.swing.JPanel;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JButton;
 
 public class MyJPanel {
 
@@ -7,6 +8,9 @@ public class MyJPanel {
 
 	JFrame jframe = new JFrame("JFrame HaGa");
 	JPanel myJPanel = new JPanel();
+	JButton jButton = new JButton("Ok");
+
+	jframe.add(jButton);
 
 	jframe.setExtendedState(JFrame.MAXIMIZED_BOTH);
 	jframe.setVisible(true);
